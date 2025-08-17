@@ -1,0 +1,9 @@
+openai
+langchain
+streamlit
+psycopg2-binary
+sqlalchemy
+pymupdf
+pandas
+faiss-cpu
+python-dotenv
