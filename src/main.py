@@ -1,9 +1,23 @@
 # main.py — Streamlit UI for Generative Insight Assistant
+# main.py — Streamlit UI for Generative Insight Assistant
+
+import os, sys
+from pathlib import Path
+
+# Ensure project root is on sys.path so "src.*" imports work on Streamlit Cloud
+ROOT = Path(__file__).resolve().parents[1]
+if str(ROOT) not in sys.path:
+    sys.path.insert(0, str(ROOT))
+
+try:
+    from src.rag_pipeline import ask_insight
+    from src.utils import load_file
+except ModuleNotFoundError:
+    # Fallback if working dir is project root
+    from rag_pipeline import ask_insight
+    from utils import load_file
 
 import streamlit as st
-from src.rag_pipeline import ask_insight
-from src.utils import load_file
-import os
 
 st.set_page_config(page_title="AutoGenAI Insight Assistant", layout="wide")
 
