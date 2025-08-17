@@ -1,9 +1,12 @@
 # utils.py — Document loader for PDFs, CSVs, and text files
 
-from langchain.document_loaders import PyMuPDFLoader, TextLoader, CSVLoader
+# utils.py — Document loader for PDFs, CSVs, and text files
+
+from langchain_community.document_loaders import PyMuPDFLoader, TextLoader, CSVLoader
 from langchain.docstore.document import Document
 import tempfile
 import os
+
 
 def load_file(uploaded_file):
     # Save uploaded file to a temp location
