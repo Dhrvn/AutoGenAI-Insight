@@ -1,9 +1,13 @@
-openai
-langchain
 streamlit
-psycopg2-binary
-sqlalchemy
-pymupdf
 pandas
-faiss-cpu
 python-dotenv
+sqlalchemy
+psycopg2-binary
+pymupdf
+faiss-cpu
+
+# LangChain modern split:
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langchain-community>=0.2.0
+openai
