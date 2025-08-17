@@ -1,0 +1,6 @@
+model,issue,location,date
+X,brake failure,Mumbai,2023-10-12
+Y,clutch wearout,Delhi,2023-11-02
+X,battery drain,Bangalore,2023-09-29
+Y,steering stiffness,Pune,2023-08-15
+X,engine misfire,Hyderabad,2023-10-05
