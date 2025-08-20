@@ -36,3 +36,6 @@ The assistant combines structured data (PostgreSQL) and unstructured insights (d
 ├── docs/ # Architecture diagrams
 ├── requirements.txt
 └── README.md
+
+🔗 [Link to Repo](https://github.com/Dhrvn/AutoGenAI-Insight) 
+
